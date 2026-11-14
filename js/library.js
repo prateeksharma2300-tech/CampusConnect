@@ -16,7 +16,22 @@ const resources = [
     link: "https://www.khanacademy.org/math/calculus-1" },
   { title: "Khan Academy Linear Algebra", subject: "Mathematics", semester: 2,
     description: "Matrices, vectors and linear equations.",
-    link: "https://www.khanacademy.org/math/linear-algebra" }
+    link: "https://www.khanacademy.org/math/linear-algebra" },
+  { title: "Programiz C Tutorial", subject: "C Programming", semester: 1,
+    description: "Clear C lessons with examples and exercises.",
+    link: "https://www.programiz.com/c-programming" },
+  { title: "Learn-C.org", subject: "C Programming", semester: 1,
+    description: "Interactive C tutorial you can run in the browser.",
+    link: "https://www.learn-c.org/" },
+  { title: "JavaScript.info", subject: "Web Development", semester: 1,
+    description: "A detailed modern JavaScript tutorial.",
+    link: "https://javascript.info/" },
+  { title: "web.dev Learn", subject: "Web Development", semester: 1,
+    description: "Free courses on HTML, CSS and responsive design.",
+    link: "https://web.dev/learn" },
+  { title: "Paul's Online Math Notes", subject: "Mathematics", semester: 1,
+    description: "Notes and practice problems for calculus and algebra.",
+    link: "https://tutorial.math.lamar.edu/" }
 ];
 
 const grid = document.getElementById("resourceGrid");

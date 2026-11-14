@@ -16,7 +16,22 @@ const events = [
     link: "https://nptel.ac.in/" },
   { title: "freeCodeCamp", category: "Free Course",
     description: "Learn web development, JavaScript and more for free.",
-    link: "https://www.freecodecamp.org/" }
+    link: "https://www.freecodecamp.org/" },
+  { title: "Major League Hacking", category: "Hackathon",
+    description: "Student hackathons and events, including online ones.",
+    link: "https://mlh.io/" },
+  { title: "Google Summer of Code", category: "Internship",
+    description: "Open-source programme for contributors, for later years.",
+    link: "https://summerofcode.withgoogle.com/" },
+  { title: "Buddy4Study", category: "Scholarship",
+    description: "Search scholarships you may be eligible for.",
+    link: "https://www.buddy4study.com/" },
+  { title: "SWAYAM", category: "Free Course",
+    description: "Free online courses from Indian institutions.",
+    link: "https://swayam.gov.in/" },
+  { title: "Kaggle Learn", category: "Free Course",
+    description: "Short free courses on Python, data and machine learning.",
+    link: "https://www.kaggle.com/learn" }
 ];
 
 const eventGrid = document.getElementById("eventGrid");
