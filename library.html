@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study Library | CampusConnect</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">Campus<span>Connect</span></a>
+      <button class="menu-btn" id="menuBtn">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="library.html">Library</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="profile.html">Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1>Study Library</h1>
+    <p>Find learning resources by subject.</p>
+
+    <div class="controls">
+      <input type="text" id="searchBox" placeholder="Search resources...">
+      <select id="subjectFilter">
+        <option value="All">All Subjects</option>
+        <option value="C Programming">C Programming</option>
+        <option value="Web Development">Web Development</option>
+        <option value="Mathematics">Mathematics</option>
+      </select>
+    </div>
+
+    <div class="card-grid" id="resourceGrid"></div>
+    <p id="noResults" class="hidden">No resources found.</p>
+  </main>
+
+  <footer>
+    <p>© 2026 CampusConnect. Made by a student, for students.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/library.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events & Opportunities | CampusConnect</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">Campus<span>Connect</span></a>
+      <button class="menu-btn" id="menuBtn">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="library.html">Library</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="profile.html">Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1>Events & Opportunities</h1>
+    <p>Hackathons, internships, scholarships and free courses in one place.</p>
+
+    <div class="controls">
+      <input type="text" id="eventSearch" placeholder="Search events...">
+    </div>
+
+    <div class="filter-buttons" id="filterButtons">
+      <button class="filter-btn active" data-category="All">All</button>
+      <button class="filter-btn" data-category="Hackathon">Hackathons</button>
+      <button class="filter-btn" data-category="Internship">Internships</button>
+      <button class="filter-btn" data-category="Scholarship">Scholarships</button>
+      <button class="filter-btn" data-category="Free Course">Free Courses</button>
+    </div>
+
+    <div class="card-grid" id="eventGrid"></div>
+    <p id="noEvents" class="hidden">No opportunities found.</p>
+  </main>
+
+  <footer>
+    <p>© 2026 CampusConnect. Made by a student, for students.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/events.js"></script>
+</body>
+</html>
+
