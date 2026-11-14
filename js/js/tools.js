@@ -1,3 +1,5 @@
+console.log("tools.js is running");
+
 /* ---------- SGPA Calculator ---------- */
 let subjects = [];
 
@@ -59,11 +61,9 @@ document.getElementById("checkAttendance").addEventListener("click", () => {
   let message = "Attendance: " + percent.toFixed(1) + "%. ";
 
   if (percent >= 75) {
-    // classes you can still miss while staying at 75%
     const canMiss = Math.floor(attended / 0.75 - total);
     message += "You can miss " + canMiss + " more class(es) and stay at 75%.";
   } else {
-    // classes you must attend in a row to reach 75%
     const need = Math.ceil((0.75 * total - attended) / 0.25);
     message += "Attend the next " + need + " class(es) to reach 75%.";
   }
