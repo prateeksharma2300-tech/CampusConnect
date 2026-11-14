@@ -218,8 +218,7 @@ body.dark .filter-btn.active { background: #1e3a8a; color: #fff; }
 }
 .plain-list { list-style: none; margin-top: 10px; }
 .plain-list li { padding: 4px 0; }
-.logo { display: flex; align-items: center; gap: 8px; }
-.logo-img { height: 36px; width: auto; }
+
 .hero-logo {
   width: 130px;
   height: 130px;
