@@ -184,3 +184,25 @@ footer { text-align: center; padding: 20px; background: #111827; color: #fff; }
   justify-content: center;
 }
 .project-list { margin-left: 20px; }
+.theme-btn { background: none; border: none; font-size: 1.2rem; cursor: pointer; }
+
+body.dark { background: #0f172a; color: #e5e7eb; }
+body.dark .navbar { background: #172554; }
+body.dark .card { background: #1e293b; }
+body.dark .tag { background: #1e3a8a; color: #dbeafe; }
+body.dark .result { color: #93c5fd; }
+body.dark .tool li { border-bottom-color: #334155; }
+body.dark .btn.clear { background: #334155; color: #e5e7eb; }
+body.dark .controls input,
+body.dark .controls select,
+body.dark .tool input,
+body.dark .profile-form input,
+body.dark .profile-form select,
+body.dark .dashboard input {
+  background: #0f172a;
+  color: #e5e7eb;
+  border-color: #475569;
+}
+body.dark .filter-btn { background: #0f172a; color: #93c5fd; border-color: #93c5fd; }
+body.dark .filter-btn:hover { background: #1e293b; }
+body.dark .filter-btn.active { background: #1e3a8a; color: #fff; }
