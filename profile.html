@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Profile | CampusConnect</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">Campus<span>Connect</span></a>
+      <button class="menu-btn" id="menuBtn">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="library.html">Library</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="profile.html">Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1>My Profile</h1>
+    <p>Your details are saved only in this browser, on your own device.</p>
+
+    <div class="profile-layout">
+
+      <form id="profileForm" class="card profile-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your name" required>
+
+        <label for="college">College</label>
+        <input type="text" id="college" placeholder="Your college name">
+
+        <label for="course">Course</label>
+        <input type="text" id="course" placeholder="e.g. B.Tech CSE">
+
+        <label for="semester">Semester</label>
+        <select id="semester">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+        </select>
+
+        <label for="skills">Skills (separate with commas)</label>
+        <input type="text" id="skills" placeholder="C, HTML, CSS, JavaScript">
+
+        <label for="projects">Projects (separate with commas)</label>
+        <input type="text" id="projects" placeholder="CampusConnect, Calculator">
+
+        <button type="submit" class="btn small">Save Profile</button>
+        <button type="button" class="btn small clear" id="clearProfile">Clear</button>
+      </form>
+
+      <div class="card profile-card" id="profileCard">
+        <p>No profile saved yet. Fill in the form and click Save Profile.</p>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 CampusConnect. Made by a student, for students.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/profile.js"></script>
+</body>
+</html>
