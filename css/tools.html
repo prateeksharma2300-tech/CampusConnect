@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Tools | CampusConnect</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">Campus<span>Connect</span></a>
+      <button class="menu-btn" id="menuBtn">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="library.html">Library</a></li>
+        <li><a href="tools.html">Tools</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="profile.html">Profile</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1>Student Tools</h1>
+    <p>Quick tools to manage your college life.</p>
+
+    <div class="card-grid tools-grid">
+
+      <div class="card tool">
+        <h3>🎓 SGPA Calculator</h3>
+        <label>Credits</label>
+        <input type="number" id="credits" placeholder="e.g. 4">
+        <label>Grade points (0-10)</label>
+        <input type="number" id="gradePoints" placeholder="e.g. 8">
+        <button class="btn small" id="addSubject">Add Subject</button>
+        <ul id="subjectList"></ul>
+        <p class="result" id="sgpaResult">SGPA: -</p>
+        <button class="btn small clear" id="clearSubjects">Clear</button>
+      </div>
+
+      <div class="card tool">
+        <h3>📅 Attendance Calculator</h3>
+        <label>Total classes held</label>
+        <input type="number" id="totalClasses" placeholder="e.g. 40">
+        <label>Classes attended</label>
+        <input type="number" id="attendedClasses" placeholder="e.g. 32">
+        <button class="btn small" id="checkAttendance">Calculate</button>
+        <p class="result" id="attendanceResult"></p>
+      </div>
+
+      <div class="card tool">
+        <h3>✅ To-Do List</h3>
+        <input type="text" id="taskInput" placeholder="Add a task...">
+        <button class="btn small" id="addTask">Add Task</button>
+        <ul id="taskList"></ul>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 CampusConnect. Made by a student, for students.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/tools.js"></script>
+</body>
+</html>

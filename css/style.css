@@ -69,3 +69,27 @@ footer { text-align: center; padding: 20px; background: #111827; color: #fff; }
   }
   .nav-links.open { display: flex; }
 }
+.tools-grid { align-items: start; }
+.tool label { display: block; margin-top: 10px; font-size: 0.9rem; }
+.tool input {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+.tool ul { list-style: none; margin-top: 12px; }
+.tool li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+.tool li.done { text-decoration: line-through; color: #888; }
+.delete-btn { background: none; border: none; color: #dc2626; cursor: pointer; font-size: 1rem; }
+.result { margin-top: 12px; font-weight: bold; color: #1e3a8a; }
+.btn.small { border: none; cursor: pointer; }
+.btn.clear { background: #e5e7eb; margin-left: 8px; }
