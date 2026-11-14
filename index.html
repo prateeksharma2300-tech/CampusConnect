@@ -26,6 +26,29 @@
       <h1>One platform. Every student.</h1>
       <p>Notes, tools, events and opportunities for your college life.</p>
       <a href="library.html" class="btn">Explore Library</a>
+    </section>    <section class="dashboard">
+      <h2>Dashboard</h2>
+      <div class="card-grid">
+
+        <div class="card">
+          <h3>📢 Announcements</h3>
+          <ul id="announcementList" class="plain-list"></ul>
+        </div>
+
+        <div class="card">
+          <h3>⏳ Exam Countdown</h3>
+          <input type="text" id="examName" placeholder="Exam name">
+          <input type="date" id="examDate">
+          <button class="btn small" id="saveExam">Set Countdown</button>
+          <p class="result" id="examResult">No exam set.</p>
+        </div>
+
+        <div class="card">
+          <h3>✅ Pending Tasks</h3>
+          <ul id="homeTasks" class="plain-list"></ul>
+        </div>
+
+      </div>
     </section>
 
     <section class="shortcuts">
@@ -43,5 +66,8 @@
   </footer>
 
   <script src="js/main.js"></script>
+  <script src="js/home.js"></script>
+  </script>
 </body>
+
 </html>

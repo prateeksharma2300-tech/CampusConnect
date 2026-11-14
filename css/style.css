@@ -206,3 +206,15 @@ body.dark .dashboard input {
 body.dark .filter-btn { background: #0f172a; color: #93c5fd; border-color: #93c5fd; }
 body.dark .filter-btn:hover { background: #1e293b; }
 body.dark .filter-btn.active { background: #1e3a8a; color: #fff; }
+.dashboard { padding: 60px 32px 0; text-align: center; }
+.dashboard .card { text-align: left; }
+.dashboard input {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+.plain-list { list-style: none; margin-top: 10px; }
+.plain-list li { padding: 4px 0; }
